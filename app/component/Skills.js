@@ -243,7 +243,7 @@ export default function HorizontalOverlap() {
               />
 
               <div className="absolute rounded-b-2xl  bottom-0 left-0 right-0 bg-purple-300/60 text-white p-5 flex justify-between items-center">
-                <h2 className="text-xl font-bold text-black">{card.title}</h2>
+                <h2 className="text-xl font-bold flex justify-center items-center text-black">{card.title}</h2>
                 <p className="ml-2 text-sm text-purple-800 font-bold">{card.about}</p>
               </div>
             </div>
