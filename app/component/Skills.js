@@ -200,65 +200,75 @@ export default function HorizontalOverlap() {
 
   const next = () =>
     setIndex((i) => (i + 1) % cards.length);
+
   return (
-    <div className="bg-purple-400/50 shadow-lg rounded-2xl px-0.5 mt-10 ">
-    <div className="h-screen m-1 bg-[url('/gradient.jpg')] bg-cover bg-center bg-[black] flex items-center justify-center relative overflow-hidden">
-      {/* LEFT */}
-      <button
-        onClick={prev}
-        className="absolute left-10 z-30 bg-gray-800 w-12 h-12 rounded-full shadow flex items-center justify-center"
-      >
-        ←
-      </button>
-      <div className="absolute top-10 text-3xl font-bold mt-4 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Skills Known:</div>
-      {/* CARDS */}
-      <div className="relative rounded-2xl h-[400px] flex items-center justify-center">
-        {cards.map((card, i) => {
-          let position = i - index;
+    <div className="bg-purple-400/50 shadow-lg rounded-2xl px-0.5 mt-10">
+      <div className="h-[80vh] md:h-screen m-1 bg-[url('/gradient.jpg')] bg-cover bg-center bg-[black] flex items-center justify-center relative overflow-hidden">
+        
+        {/* LEFT */}
+        <button
+          onClick={prev}
+          className="absolute left-2 md:left-10 z-30 bg-gray-800 w-10 h-10 md:w-12 md:h-12 rounded-full shadow flex items-center justify-center"
+        >
+          ←
+        </button>
 
-          if (position > cards.length / 2) {
-            position -= cards.length;
-          }
-          if (position < -cards.length / 2) {
-            position += cards.length;
-          }
-          return (
-            <div
-              key={card.id}
-              className="absolute p-10 border-2 border-[#5300a0] shadow-xl shadow-purple-500 bg-[#ffffff] w-[330px] h-[400px] rounded-2xl  shadow-2xl opacity-0 transition-all duration-500"
-              style={{
-                transform: `
-                  translateX(${position * 330}px)
-                  scale(${1 - Math.abs(position) * 0.20})
-                `,
-                zIndex: cards.length - Math.abs(position),
-                opacity: Math.abs(position) > 2 ? 0 : 1,
-              }}
-            >
-              <img
-                src={card.img}
-                className="w-full flex items-center justify-center"
-                alt=""
-              />
+        <div className="absolute top-6 md:top-10 text-xl md:text-3xl font-bold mt-4 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+          Skills Known:
+        </div>
 
-              <div className="absolute rounded-b-2xl  bottom-0 left-0 right-0 bg-purple-300/60 text-white p-5 flex justify-between items-center">
-                <h2 className="text-xl font-bold flex justify-center items-center text-black">{card.title}</h2>
-                <p className="ml-2 text-sm text-purple-800 font-bold">{card.about}</p>
+        {/* CARDS */}
+        <div className="relative rounded-2xl h-[300px] md:h-[400px] flex items-center justify-center">
+          {cards.map((card, i) => {
+            let position = i - index;
+
+            if (position > cards.length / 2) {
+              position -= cards.length;
+            }
+            if (position < -cards.length / 2) {
+              position += cards.length;
+            }
+
+            return (
+              <div
+                key={card.id}
+                className="absolute p-6 md:p-10 border-2 border-[#5300a0] shadow-xl shadow-purple-500 bg-[#ffffff] w-[250px] md:w-[330px] h-[320px] md:h-[400px] rounded-2xl shadow-2xl opacity-0 transition-all duration-500"
+                style={{
+                  transform: `
+                   translateX(${position * 100}%)
+                    scale(${1 - Math.abs(position) * 0.20})
+                  `,
+                  zIndex: cards.length - Math.abs(position),
+                  opacity: Math.abs(position) > 2 ? 0 : 1,
+                }}
+              >
+                <img
+                  src={card.img}
+                  className="w-full flex items-center justify-center"
+                  alt=""
+                />
+
+                <div className="absolute rounded-b-2xl bottom-0 left-0 right-0 bg-purple-300/60 text-white p-3 md:p-5 flex flex-col md:flex-row justify-between items-center">
+                  <h2 className="text-lg md:text-xl font-bold text-black text-center">
+                    {card.title}
+                  </h2>
+                  <p className="text-xs md:text-sm text-purple-800 font-bold text-center md:text-left">
+                    {card.about}
+                  </p>
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
 
-      {/* RIGHT */}
-      <button
-        onClick={next}
-        className="absolute right-10 z-30 bg-gray-800 w-12 h-12 rounded-full shadow flex items-center justify-center"
-      >
-        →
-      </button>
-      
-    </div>
+        {/* RIGHT */}
+        <button
+          onClick={next}
+          className="absolute right-2 md:right-10 z-30 bg-gray-800 w-10 h-10 md:w-12 md:h-12 rounded-full shadow flex items-center justify-center"
+        >
+          →
+        </button>
+      </div>
     </div>
   );
 }
