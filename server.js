@@ -27,8 +27,8 @@ app.post("/send", async (req, res) => {
     (async () => {
   const info = await transporter.sendMail({
     from: '"Maddison Foo Koch" <maddison53@ethereal.email>',
-    to: "bar@example.com, baz@example.com",
-    subject: "Hello ✔",
+    to: "abhishe887tripathi@gmail.com",
+    subject: "Message is delivered",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong> ${message}</p>`,
   });
