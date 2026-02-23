@@ -35,7 +35,7 @@ const Contact = () => {
             })
     }
   return (
-    <div className='w-full h-[80vh] p-9 flex flex-col justify-center items-center gap-4 shadow-[0_0_20px_4px_rgba(168,85,247,0.4)]' id='contact'>
+    <div className='w-full h-[90vh] p-9 flex flex-col justify-center items-center gap-4 shadow-[0_0_20px_4px_rgba(168,85,247,0.4)]' id='contact'>
   <form onSubmit={handlesubmit} className='flex flex-col justify-center items-center text-center mx-5 p-8 h-full mb-3.5 gap-6 w-[70vw] rounded-3xl backdrop-blur-md bg-white/5 border border-purple-500/30 shadow-[0_0_25px_rgba(168,85,247,0.3)] hover:shadow-[0_0_35px_rgba(168,85,247,0.6)] transition-all duration-500'>
     
     <div>
