@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Link from 'next/link';
 
 const content = () => {
     return (
@@ -25,7 +26,7 @@ I am passionate about building real-world applications that solve practical prob
                 </div>
                 <div className='flex gap-4 mt-5'>
                     <a href="#" className='decoration-0 border border-[#2a2a2a] p-1 w-[140px] h-[30px] flex justify-center items-center  rounded-2xl font-bold text-[#5300a0] hover:bg-[#5300a0] hover:text-white transition-colors duration-300'>RESUME</a>
-                    <a href="http://localhost:3000/about#intern" className="decoration-0 bg-gray-200 w-[240px] h-[30px] flex justify-center items-center text-black px-4 py-2 rounded-[50px] font-bold hover:bg-[#5300a0] hover:text-white transition-colors duration-300">Internships & Certificates</a>
+                    <Link href="/about#intern" className="decoration-0 bg-gray-200 w-[240px] h-[30px] flex justify-center items-center text-black px-4 py-2 rounded-[50px] font-bold hover:bg-[#5300a0] hover:text-white transition-colors duration-300">Internships & Certificates</Link>
                 </div>
             </div>
         

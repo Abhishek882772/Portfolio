@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { Link } from "react-scroll";
+import Link2 from 'next/link';
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
             <div>
                 <nav className='flex gap-10 text-center items-center justify-center px-4'>
                     <Link className='transition-colors duration-200 ease-in-out hover:text-purple-800 hover:cursor-pointer' to="http://localhost:3000"  spy={true} smooth={true} duration={800}>Home</Link>
-                    <a className='transition-colors duration-200 ease-in-out hover:text-purple-800 hover:cursor-pointer' href="http://localhost:3000/about">About</a>
+                    <Link2 href="/about" className='transition-colors duration-200 ease-in-out hover:text-purple-800 hover:cursor-pointer'>About</Link2>
                     <Link className='transition-colors duration-200 ease-in-out hover:text-purple-800 hover:cursor-pointer' to="projects"  spy={true} smooth={true} duration={800}>Projects</Link>
                     <Link className='transition-colors duration-200 ease-in-out hover:text-purple-800 hover:cursor-pointer' to="skills"  spy={true} smooth={true} duration={800}>Skills</Link>
                     
