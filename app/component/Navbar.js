@@ -1,10 +1,6 @@
 "use client"
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from "react-scroll";
-import content from './content'
-import Projects from './Projects'
-import Contact from './Contact'
-import Skills from './Skills'
 
 const Navbar = () => {
     return (
