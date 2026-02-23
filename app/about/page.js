@@ -60,10 +60,7 @@ const about = () => {
                             
                             <div>
                                 <h3 className="text-xl md:text-2xl font-semibold">Internship at Launched Global</h3>
-                                <p className="mt-2 text-sm">
-                                    Completed a 2-month internship where I developed a full-stack web application using the MERN stack...
-                                </p>
-                                <a className='font-bold text-[#E19419]' href="#">View Certificate</a>
+                                <p className="mt-2 text-sm"> Completed a 2-month internship where I developed a full-stack web application using the MERN stack, gaining hands-on experience in building responsive user interfaces and secure backend APIs. Worked on a project that involved creating a task management application, implementing features such as user authentication, CRUD operations, and real-time talk using Socket.io and nodemailer. </p> <a className='font-bold text-[#E19419]' href="https://drive.google.com/file/d/1UWEcEDdd0YqG9PxExQIpmWcBjz7EqBdm/view?usp=drivesdk">View Certificate</a>
                             </div>
 
                             <div className='bg-[#E19419] w-full mt-4 rounded-2xl h-1'></div>
@@ -74,23 +71,17 @@ const about = () => {
                                 <div>
                                     <div>
                                         <h3 className="text-lg md:text-xl font-semibold">Certificate in Full-Stack Development</h3>
-                                        <p className="mt-2 text-sm">
-                                            Earned a certificate in Full-Stack Development...
-                                        </p>
+                                        <p className="mt-2 text-sm"> Earned a certificate in Full-Stack Development after completing a comprehensive course covering frontend technologies like React and backend development with Node.js and Express. </p> <a className='font-bold text-[#E19419]' href="https://drive.google.com/file/d/1ArifROLBH0HVl8KDtORmvlROcmew3_xY/view?usp=drivesdk">View Certificate</a>
                                     </div>
 
                                     <div className='my-8'>
                                         <h3 className="text-lg md:text-xl font-semibold">Certificate in Data Analytics and Visualization</h3>
-                                        <p className="mt-2 text-sm">
-                                            Earned a certificate in Data Analytics...
-                                        </p>
+                                        <p className="mt-2 text-sm"> Earned a certificate in Data Analytics and Visualization after completing a comprehensive course covering data analysis techniques, visualization tools, and statistical methods. </p> <a className='font-bold text-[#E19419]' href="https://drive.google.com/file/d/1lBrlYm4THzJSyGGpOzv96slmcBk8IGqp/view?usp=drivesdk">View Certificate</a>
                                     </div>
 
                                     <div>
                                         <h3 className="text-lg md:text-xl font-semibold">Certificate in SIH</h3>
-                                        <p className="mt-2 text-sm">
-                                            Earned a certificate in SIH...
-                                        </p>
+                                        <p className="mt-2 text-sm"> Earned a certificate in SIH (Smart India Hackathon) after completing a comprehensive project involving problem-solving and software development. </p> <a className='font-bold text-[#E19419]' href="https://drive.google.com/file/d/13N4HBNaVgg7_wcd2etYtyaGbJyftiAqZ/view?usp=drivesdk">View Certificate</a>
                                     </div>
                                 </div>
 
@@ -98,16 +89,13 @@ const about = () => {
                                 <div>
                                     <div>
                                         <h3 className="text-lg md:text-xl font-semibold">CODECHEF Certificate in Problem solving</h3>
-                                        <p className="mt-2 text-sm">
-                                            Earned a certificate in Problem Solving from CodeChef...
-                                        </p>
+                                        <p className="mt-2 text-sm"> Earned a certificate in Problem Solving from CodeChef, demonstrating proficiency in solving algorithmic challenges and improving problem-solving skills. </p> <div><a className='font-bold text-[#E19419]' href="https://drive.google.com/file/d/1dsaxQY1eCb7a1odGJYA7khHibOD5CGx5/view?usp=drivesdk">View Certificate</a>
+                                    </div>
                                     </div>
 
                                     <div className='mt-8'>
                                         <h3 className="text-lg md:text-xl font-semibold">Certificate in Cloud Computing</h3>
-                                        <p className="mt-2 text-sm">
-                                            Completed a certificate program in Cloud Computing...
-                                        </p>
+                                        <p className="mt-2 text-sm"> Completed a certificate program in Cloud Computing, gaining knowledge of cloud platforms like AWS and understanding how to deploy and manage applications in the cloud environment. </p> <div><a className='font-bold text-[#E19419]' href="https://www.credly.com/badges/03318949-4066-4890-bbf3-994aeed4a82b/linked_in?t=sow8j3">Introduction to cloud computing</a></div> <a className='font-bold text-[#E19419]' href="https://www.credly.com/badges/32180413-cb27-4df2-bd7c-0a815a61db1e/linked_in?t=t09afv">Cloud Foundation</a>
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +105,7 @@ const about = () => {
                     {/* About Section */}
                     <section className="bg-[#283D2C] text-white px-4 md:px-10 py-10 md:py-20 mt-10 rounded-2xl text-center md:text-left">
                         <h3 className="text-2xl md:text-3xl font-semibold">
-                            Who is <span className="text-[#E19419]">Abhishek Tripathi</span>?
+                            About <span className="text-[#E19419]">Myself...</span>?
                         </h3>
 
                         <p className="mt-4 max-w-xl text-sm mx-auto md:mx-0">
