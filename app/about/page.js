@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Link from 'next/link'
 
 const about = () => {
     return (
@@ -14,12 +15,12 @@ const about = () => {
                             <div className='font-bold'>Abhishek.</div>
                         </div>
                         <div className='flex gap-10 text-center items-center justify-center px-4'>
-                            <a className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="http://localhost:3000">Home</a>
-                            <a className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="http://localhost:3000/about">About</a>
-                            <a className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="http://localhost:3000#projects">Projects</a>
-                            <a className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="http://localhost:3000#skills">Skills</a>
+                            <Link className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="/">Home</Link>
+                            <Link className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="/about">About</Link>
+                            <Link className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="/#projects">Projects</Link>
+                            <Link className='transition-colors duration-200 ease-in-out hover:text-[#E19419]' href="/#skills">Skills</Link>
                         </div>
-                        <div className='ml-10 flex justify-center bg-white text-[#283D2C] font-bold w-fit px-4 py-1 rounded-full text-sm hover:bg-gray-200 transition-colors duration-300 h-[40px]'><a className='flex  justify-center items-center font-bold' href="http://localhost:3000#contact">Contact Me</a></div>
+                        <div className='ml-10 flex justify-center bg-white text-[#283D2C] font-bold w-fit px-4 py-1 rounded-full text-sm hover:bg-gray-200 transition-colors duration-300 h-[40px]'><Link className='flex  justify-center items-center font-bold' href="/#contact">Contact Me</Link></div>
                     </div>
                     <div className="grid grid-cols-2 justify-between items-center mt-20 gap-10">
                         <div>

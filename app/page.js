@@ -5,7 +5,6 @@ import Skills from "./component/Skills";
 import Projects from "./component/Projects";
 import Contact from "./component/Contact";
 
-
 export default function Home() {
   return (
    <div className="relative w-full mt-0 min-h-[120vh] bg-black text-[#e7e7e7] leading-normal">
