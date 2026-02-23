@@ -47,6 +47,7 @@ function AnimatedSlide({ slide, index }) {
             className="h-screen sticky top-0 flex items-center justify-center"
             style={{ zIndex: 10 + index }}
         >
+            
             <motion.div
                 style={{ scale, opacity }}
                 className="w-[85%] h-[80vh] bg-black opacity-0 rounded-3xl mb-2  flex flex-col items-center justify-center gap-6 p-10 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] shadow-white"

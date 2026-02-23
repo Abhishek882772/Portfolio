@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
     const [mail, setmail] = useState({
@@ -10,7 +11,8 @@ const Contact = () => {
     const handelChange=(e)=>{
         setmail({...mail,[e.target.name]:e.target.value});
     }
-    const handlesubmit=(e)=>{
+    const notify = () => toast("Mail sent successfully!");
+    const handlesubmit=async(e)=>{
         e.preventDefault();
             fetch('http://localhost:5000/send',{
                 method:'POST', 
@@ -58,9 +60,10 @@ const Contact = () => {
     </div>
 
     <div className='m-auto'>
-      <button className='font-bold bg-gradient-to-r from-purple-600 to-pink-500 px-10 py-3 rounded-3xl shadow-[0_0_15px_rgba(168,85,247,0.6)] hover:scale-110 hover:shadow-[0_0_30px_rgba(236,72,153,0.8)] active:scale-95 transition-all duration-300' type="submit">
+      <button onClick={notify} className='font-bold bg-gradient-to-r from-purple-600 to-pink-500 px-10 py-3 rounded-3xl shadow-[0_0_15px_rgba(168,85,247,0.6)] hover:scale-110 hover:shadow-[0_0_30px_rgba(236,72,153,0.8)] active:scale-95 transition-all duration-300' type="submit">
         Send Message
       </button>
+      <ToastContainer />
     </div>
 
   </form>
