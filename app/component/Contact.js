@@ -67,7 +67,7 @@ const Contact = () => {
     </div>
 
   </form>
-  <div className='bg-black text-white w-full flex justify-between mt-0 items-center mb-3 gap-4 text-center text-sm'>
+  <div className='bg-black text-white w-full flex justify-between md:flex-row flex-col mt-0 items-center mb-3 gap-4 text-center text-sm'>
       <p className='text-sm'> Developed by Abhishek Tripathi.</p>
       <div className='ml-4'>Phone No: +91 6265842344</div>
       <div className='ml-4'>Email: abhishek887tripathi@gmail.com</div>
