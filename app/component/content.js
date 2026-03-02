@@ -7,18 +7,18 @@ const content = () => {
         <div className='text-white flex flex-col justify-center 
         h-auto md:h-[80vh] 
         m-4 md:m-8 
-        gap-4 border border-2 rounded-xl shadow-xl shadow-purple-500 border-[#ffffff20]'>
+        gap-4 border border-2 rounded-xl shadow-xl shadow-purple-500 border-[#ffffff20] p-6'>
 
-            <div className='w-full md:max-w-[40vw] md:ml-[10%] z-[999]'>
+            <div className='w-full md:max-w-[40vw] md:ml-[10%] w-[90vw] z-[999]'>
 
                 <div className='relative w-[180px] md:w-[200px] rounded-[50px] bg-gradient-to-r 
                 from-[#656565] via-[#7f42a7] via-[#6600c5] via-[#5300a0] via-[#757575] to-[#656565] 
                 bg-[length:200%_auto] animate-[animationGradient_2.5s_linear_infinite] 
-                bg-[position:200%_50%] shadow-[0_0_15px_#7f42a7]'>
+                bg-[position:200%_50%] shadow-[0_0_15px_#7f42a7] '>
 
                     <div className='flex justify-center items-center h-[30px] 
                     transition-transform duration-500 hover:text-[#5300a0]
-                    rounded-2xl bg-black'>
+                    rounded-2xl bg-black '>
                         I'm Abhishek <span className='text-purple-800'> Tripathi</span>
                     </div>
                 </div>

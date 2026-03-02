@@ -12,8 +12,8 @@ export default function Home() {
    <img src="gradient.png" alt="Gradient Background" className="w-full h-full object-cover absolute top-0 right-0 opacity-0.5 z-[-1]" />
    <div className="relative h-0 w-[30rem] top-[20%] right-0 shadow-[0_0_700px_15px_white] rotate-[-30deg] "></div>
    <div className="flex md:flex-row flex-col justify-center items-center gap-10 mt-10" id="home">
-    <div className="w-[60vw] bg-black " id="content"><Content /></div>
-    <div className="w-[40vw]   md:mt-0"><SplineScene /></div>
+    <div className="md:w-[60vw] w-full bg-black " id="content"><Content /></div>
+    <div className="md:w-[40vw]  w-full md:mt-0"><SplineScene /></div>
    </div>
    <div className="w-full h-20 bg-gradient-to-t from-black to-transparent " id="skills"><Skills /></div>
    <div className="bg-black h-[80vh]"></div>
