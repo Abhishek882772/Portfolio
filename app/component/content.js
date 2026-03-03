@@ -61,7 +61,7 @@ const content = () => {
                 {/* Buttons */}
                 <div className='flex flex-col md:flex-row gap-4 mt-5'>
 
-                    <a href="#" className='border border-[#2a2a2a] 
+                    <a href="https://drive.google.com/file/d/1iQGHk3Rp0-ogEPEjUEo-38N1vvUMKzxA/view?usp=drivesdk" className='border border-[#2a2a2a] 
                     w-full md:w-[140px] h-[35px] md:h-[30px] 
                     flex justify-center items-center 
                     rounded-2xl font-bold text-[#5300a0] 
