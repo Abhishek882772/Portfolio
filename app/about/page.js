@@ -29,15 +29,15 @@ const about = () => {
                     </div>
 
                     {/* Hero Section */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center mt-10 md:mt-20 gap-10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center mt-10 mb-0 pb-0 md:mt-20 gap-10">
                         <div>
                             <h2 className="text-2xl md:text-4xl font-bold leading-tight text-center md:text-left">
                                 I’m <span className="underline text-[#E19419] hover:text-[#bd7502]">Abhishek Tripathi ,</span><br />
-                                MERN Stack Developer <br />
-                                Based in INDIA.
+                                MERN Stack Developer And<br />
+                                Aspiring Software Engineer
                             </h2>
                             <p className="mt-4 text-sm md:text-base max-w-md text-center md:text-left mx-auto md:mx-0">
-                                I am a MERN Stack developer with 1.5 years of hands-on experience building various projects. I have worked on developing responsive, full-stack web applications and am actively seeking opportunities to contribute and grow in a dynamic team.
+                               Software Engineer & MERN Stack Developer with 1.5 years of hands-on experience building responsive, scalable, and full-stack web applications. Skilled in developing efficient solutions using MongoDB, Express.js, React.js, and Node.js, with a strong focus on clean code, problem-solving, and delivering impactful user experiences.
                             </p>
                         </div>
                         <div className="flex justify-center">
@@ -104,29 +104,34 @@ const about = () => {
 
                     {/* About Section */}
                     <section className="bg-[#283D2C] text-white px-4 md:px-10 py-10 md:py-20 mt-10 rounded-2xl text-center md:text-left">
-                        <h3 className="text-2xl md:text-3xl font-semibold">
-                            About <span className="text-[#E19419]">Myself...</span>?
-                        </h3>
+    <h3 className="text-2xl md:text-3xl font-semibold">
+        About <span className="text-[#E19419]">Myself...</span>
+    </h3>
 
-                        <p className="mt-4 max-w-xl text-sm mx-auto md:mx-0">
-                            I have developed responsive, user-friendly full-stack applications...
-                        </p>
+    <p className="mt-4 max-w-xl text-sm mx-auto md:mx-0">
+        Software Engineer & MERN Stack Developer with 1.5+ years of hands-on
+        experience building responsive, scalable, and user-focused full-stack
+        applications. Passionate about problem-solving, clean code, and
+        creating impactful software solutions.
+    </p>
 
-                        <div className="flex flex-col md:flex-row gap-8 md:gap-10 mt-8 items-center md:items-start">
-                            <div>
-                                <p className="text-2xl font-bold">10+</p>
-                                <p className="text-sm">Projects Completed</p>
-                            </div>
-                            <div>
-                                <p className="text-2xl font-bold">DSA-Focused</p>
-                                <p className="text-sm">Aspiring Software Engineer</p>
-                            </div>
-                            <div>
-                                <p className="text-2xl font-bold">1.5+</p>
-                                <p className="text-sm">Years Working with MERN Stack</p>
-                            </div>
-                        </div>
-                    </section>
+    <div className="flex flex-col md:flex-row gap-8 md:gap-10 mt-8 items-center md:items-start">
+        <div>
+            <p className="text-2xl font-bold">10+</p>
+            <p className="text-sm">Projects Completed</p>
+        </div>
+
+        <div>
+            <p className="text-2xl font-bold">500+</p>
+            <p className="text-sm">DSA Problems Solved</p>
+        </div>
+
+        <div>
+            <p className="text-2xl font-bold">1.5+</p>
+            <p className="text-sm">Years of MERN Experience</p>
+        </div>
+    </div>
+</section>
 
                 </div>
             </div>

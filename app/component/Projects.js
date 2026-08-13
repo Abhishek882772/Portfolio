@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Projects() {
     const slides = [
@@ -11,10 +12,11 @@ export default function Projects() {
         { id: 3, title: "Twitter Clone", desc:"A Frontend Project .", images: ["/twitter clone.png" ]},
         { id: 4, title: "Todo using Vite",desc:"A task management application built with Vite and React.", images: ["/todo.png" ]},
         { id: 5, title: "Password Manager",desc:"A secure password manager application.", images: ["/Pasword.png"] },
-        { id: 6, title: "Get Me Chai: Full stack Project", link: "https://share.vidyard.com/watch/GcNvCmaKjApjtgNRXkdTb8",desc:"A full stack project built with React, Node.js, MongoDB.", images: ["/get me chai2.png", "/Get me chai.png"] },
+        { id: 6, title: "Get Me Chai: Full stack Project",desc:"A full stack project built with React, Node.js, MongoDB.", images: ["/get me chai2.png", "/Get me chai.png"] },
         { id: 7, title: "Bitlink: URL Shortener",desc:"A URL shortening service built with React and Node.js.", images: ["/bitlink3.png","/bitlink2.png"] },
         { id: 8, title: "Bittree: Tree Structure (MERN Project)",desc:"A tree structure visualization project built with MERN stack.", images: ["/bittree.png","/bittree1.png"] },
-        { id: 9, title: "Hospital Management System",desc:"A full stack project using React , Node.js , Mongo , Socket.io and Next.js", images: ["/hospital (1).png","/hospital (3).png"] },
+        { id: 9, title: "Hospital Management System",desc:"A full stack project using React , Node.js , Mongo , Socket.io and Next.js",link: "https://hospital-management-1nhk.vercel.app/", images: ["/hospital (1).png","/hospital (3).png"] },
+        { id: 10, title: "NextBloom",desc:"A platform to help the next generation of creators.",link:"https://nextbloom-two.vercel.app/",images:["/Nextbloom(1).png","/Nextbloom(3).png"]}
 ];
 
     return (
@@ -55,7 +57,18 @@ function AnimatedSlide({ slide, index }) {
                 <h1 className="text-4xl font-bold text-center hover:scale-105 transition-transform duration-300 cursor-pointer text-transparent bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text">
                     {slide.title}
                 </h1>
-                <p className="text-gray-300">{slide.desc}</p>
+                <span className="text-gray-300">{slide.desc}</span>
+                <span className="border bg-gray-800 text-blue-100 rounded-lg px-4 py-1 hover:bg-blue-800 transition-colors duration-300 cursor-pointer">
+                    {slide.link && (
+                        <Link
+                            href={slide.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            
+                    >
+                        View Project
+                    </Link>
+                )}</span>
                 <div
                     className={`w-full h-[90%] grid gap-6 ${slide.images.length === 1
                             ? "grid-cols-1"
