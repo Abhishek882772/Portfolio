@@ -24,7 +24,9 @@ const about = () => {
                         </div>
 
                         <div className="flex justify-center bg-white text-[#283D2C] font-bold px-4 py-1 rounded-full text-sm hover:bg-gray-200 transition-colors duration-300">
-                            <Link className="flex justify-center items-center font-bold" href="/#contact">Contact Me</Link>
+                            <Link className="flex justify-center items-center font-bold" href="/#contact">
+                                Contact Me
+                            </Link>
                         </div>
                     </div>
 
@@ -60,11 +62,16 @@ const about = () => {
 
                         <section className="bg-[#283D2C] text-white px-4 md:px-10 py-10 md:py-20 mt-6 md:mt-10 rounded-2xl">
 
+                            {/* Existing Internship */}
                             <div>
-                                <h3 className="text-xl md:text-2xl font-semibold">Internship at Launched Global</h3>
+                                <h3 className="text-xl md:text-2xl font-semibold">
+                                    Internship at Launched Global
+                                </h3>
+
                                 <p className="mt-2 text-sm">
-                                    Completed a 2-month internship where I developed a full-stack web application using the MERN stack, gaining hands-on experience in building responsive user interfaces and secure backend APIs. Worked on a project that involved creating a task management application, implementing features such as user authentication, CRUD operations, and real-time talk using Socket.io and Nodemailer.
+                                    Completed a 2-month internship where I developed a full-stack web application using the MERN stack, gaining hands-on experience in building responsive user interfaces and secure backend APIs. Worked on a project that involved creating a task management application, implementing features such as user authentication, CRUD operations, and real-time communication using Socket.io and Nodemailer.
                                 </p>
+
                                 <a
                                     className="font-bold text-[#E19419]"
                                     href="https://drive.google.com/file/d/1UWEcEDdd0YqG9PxExQIpmWcBjz7EqBdm/view?usp=drivesdk"
@@ -77,10 +84,14 @@ const about = () => {
 
                             {/* New Internship */}
                             <div className="mt-8">
-                                <h3 className="text-xl md:text-2xl font-semibold">Internship</h3>
+                                <h3 className="text-xl md:text-2xl font-semibold">
+                                    Full Stack Development Engineer Intern at Sync and Explore Pvt. Ltd.
+                                </h3>
+
                                 <p className="mt-2 text-sm">
-                                    Completed an internship gaining hands-on experience in software and web development, working with modern technologies and real-world project requirements.
+                                    Successfully completed a two-month internship as a Full Stack Development Engineer Intern at Sync and Explore Pvt. Ltd. from 1 June 2026 to 31 July 2026. During the internship, contributed to software development activities and supported the technical team in assigned projects and tasks.
                                 </p>
+
                                 <a
                                     className="font-bold text-[#E19419]"
                                     href="https://drive.google.com/file/d/1o3uzz6S8NgGvPSAZ-4IxL-BSI6wLyIt-/view?usp=drivesdk"
@@ -98,10 +109,14 @@ const about = () => {
                                 {/* Left Column */}
                                 <div>
                                     <div>
-                                        <h3 className="text-lg md:text-xl font-semibold">Certificate in Full-Stack Development</h3>
+                                        <h3 className="text-lg md:text-xl font-semibold">
+                                            Certificate in Full-Stack Development
+                                        </h3>
+
                                         <p className="mt-2 text-sm">
                                             Earned a certificate in Full-Stack Development after completing a comprehensive course covering frontend technologies like React and backend development with Node.js and Express.
                                         </p>
+
                                         <a
                                             className="font-bold text-[#E19419]"
                                             href="https://drive.google.com/file/d/1ArifROLBH0HVl8KDtORmvlROcmew3_xY/view?usp=drivesdk"
@@ -113,10 +128,14 @@ const about = () => {
                                     </div>
 
                                     <div className="my-8">
-                                        <h3 className="text-lg md:text-xl font-semibold">Certificate in Data Analytics and Visualization</h3>
+                                        <h3 className="text-lg md:text-xl font-semibold">
+                                            Certificate in Data Analytics and Visualization
+                                        </h3>
+
                                         <p className="mt-2 text-sm">
                                             Earned a certificate in Data Analytics and Visualization after completing a comprehensive course covering data analysis techniques, visualization tools, and statistical methods.
                                         </p>
+
                                         <a
                                             className="font-bold text-[#E19419]"
                                             href="https://drive.google.com/file/d/1lBrlYm4THzJSyGGpOzv96slmcBk8IGqp/view?usp=drivesdk"
@@ -128,10 +147,14 @@ const about = () => {
                                     </div>
 
                                     <div>
-                                        <h3 className="text-lg md:text-xl font-semibold">Certificate in SIH</h3>
+                                        <h3 className="text-lg md:text-xl font-semibold">
+                                            Certificate in SIH
+                                        </h3>
+
                                         <p className="mt-2 text-sm">
                                             Earned a certificate in SIH (Smart India Hackathon) after completing a comprehensive project involving problem-solving and software development.
                                         </p>
+
                                         <a
                                             className="font-bold text-[#E19419]"
                                             href="https://drive.google.com/file/d/13N4HBNaVgg7_wcd2etYtyaGbJyftiAqZ/view?usp=drivesdk"
@@ -144,10 +167,14 @@ const about = () => {
 
                                     {/* New Certificate */}
                                     <div className="my-8">
-                                        <h3 className="text-lg md:text-xl font-semibold">Professional Certificate</h3>
+                                        <h3 className="text-lg md:text-xl font-semibold">
+                                            Certificate in Exploratory Data Analysis
+                                        </h3>
+
                                         <p className="mt-2 text-sm">
-                                            Successfully completed a professional certification program, gaining additional knowledge and practical skills in software development.
+                                            Successfully cleared the assessment in Exploratory Data Analysis, aligned with competency standards developed by the IT-ITeS Sector Skills Council and Nasscom. Achieved a Gold category certification with an overall assessment score of 94%.
                                         </p>
+
                                         <a
                                             className="font-bold text-[#E19419]"
                                             href="https://drive.google.com/file/d/1kMy3fZc-SQYsgLzPCc3k-9RURvrjemHu/view?usp=drivesdk"
@@ -162,10 +189,14 @@ const about = () => {
                                 {/* Right Column */}
                                 <div>
                                     <div>
-                                        <h3 className="text-lg md:text-xl font-semibold">CODECHEF Certificate in Problem Solving</h3>
+                                        <h3 className="text-lg md:text-xl font-semibold">
+                                            CODECHEF Certificate in Problem Solving
+                                        </h3>
+
                                         <p className="mt-2 text-sm">
                                             Earned a certificate in Problem Solving from CodeChef, demonstrating proficiency in solving algorithmic challenges and improving problem-solving skills.
                                         </p>
+
                                         <div>
                                             <a
                                                 className="font-bold text-[#E19419]"
@@ -179,10 +210,14 @@ const about = () => {
                                     </div>
 
                                     <div className="mt-8">
-                                        <h3 className="text-lg md:text-xl font-semibold">Certificate in Cloud Computing</h3>
+                                        <h3 className="text-lg md:text-xl font-semibold">
+                                            Certificate in Cloud Computing
+                                        </h3>
+
                                         <p className="mt-2 text-sm">
-                                            Completed a certificate program in Cloud Computing, gaining knowledge of cloud platforms like AWS and understanding how to deploy and manage applications in the cloud environment.
+                                            Completed a certificate program in Cloud Computing, gaining knowledge of cloud platforms and understanding how to deploy and manage applications in a cloud environment.
                                         </p>
+
                                         <div>
                                             <a
                                                 className="font-bold text-[#E19419]"
@@ -193,6 +228,7 @@ const about = () => {
                                                 Introduction to Cloud Computing
                                             </a>
                                         </div>
+
                                         <a
                                             className="font-bold text-[#E19419]"
                                             href="https://www.credly.com/badges/32180413-cb27-4df2-bd7c-0a815a61db1e/linked_in?t=t09afv"
